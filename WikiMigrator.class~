@@ -20,12 +20,11 @@ class WikiMigrator {
 			//echo "************".$pagePath."************<br>";
 			//echo file_get_contents("$serverPath$pagePath&do=export_xhtml");
 			$content = file_get_contents("$serverPath$pagePath&do=export_xhtml");
-			//napr. DB::insertZaznam($pagePath, $content)
 		}
 		
 	
 		
-		
+		//napr. DB::insertZaznam($pagePath, $content)
 	}
 	
 	private static function find_all_files($dir) 
