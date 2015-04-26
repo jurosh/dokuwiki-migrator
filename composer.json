@@ -7,5 +7,6 @@
             "email": "jurosh@jurosh.com"
         }
     ],
-    "require": {}
+    "require": {
+	}
 }
