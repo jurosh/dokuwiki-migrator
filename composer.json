@@ -1,0 +1,11 @@
+{
+    "name": "jurosh/dokuwiki-html-migrate",
+    "description": "Migrate from dokuwiki to another system.",
+    "authors": [
+        {
+            "name": "Jurosh",
+            "email": "jurosh@jurosh.com"
+        }
+    ],
+    "require": {}
+}
