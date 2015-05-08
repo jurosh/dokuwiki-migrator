@@ -1,10 +1,12 @@
 <?php
 
-namespace jurosh\migrate\dokuwiki {
+namespace jurosh\migrate\dokuwiki;
 
 
 interface WikiInterface  {
-    public static function Transform($localPath,$serverPath);
-    public static function wasTransformed();
-}
+    /**
+     * 
+     * @param \jurosh\migrate\dokuwiki\WikiExecuteInterface $asd
+     */
+    public function transform(WikiExecuteInterface $asd);
 }
